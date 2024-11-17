@@ -1,0 +1,118 @@
+[
+  {
+    "ContainingType": "SolucionPizza.API.Controllers.IngredientesController",
+    "Method": "Delete",
+    "RelativePath": "api/Ingredientes/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SolucionPizza.API.Controllers.IngredientesController",
+    "Method": "Insert",
+    "RelativePath": "api/Ingredientes/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SolucionPizza.DTO.DTO.IngredienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SolucionPizza.API.Controllers.IngredientesController",
+    "Method": "Lista",
+    "RelativePath": "api/Ingredientes/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SolucionPizza.API.Controllers.IngredientesController",
+    "Method": "Obtener",
+    "RelativePath": "api/Ingredientes/Obtener/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SolucionPizza.API.Controllers.IngredientesController",
+    "Method": "Update",
+    "RelativePath": "api/Ingredientes/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SolucionPizza.DTO.DTO.IngredienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SolucionPizza.API.Controllers.PedidoController",
+    "Method": "CrearPedido",
+    "RelativePath": "api/Pedido/CrearPedido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SolucionPizza.DTO.DTO.CreaPedidoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SolucionPizza.API.Controllers.PizzaController",
+    "Method": "CrearPizza",
+    "RelativePath": "api/Pizza/CrearPizza",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SolucionPizza.DTO.DTO.CreaPizzaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SolucionPizza.API.Controllers.PizzaController",
+    "Method": "ListaPizzas",
+    "RelativePath": "api/Pizza/ListaPizzas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,463 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.API\\SolidNur.API.csproj": {}
+  },
+  "projects": {
+    "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.API\\SolidNur.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.API\\SolidNur.API.csproj",
+        "projectName": "SolidNur.API",
+        "projectPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.API\\SolidNur.API.csproj",
+        "packagesPath": "C:\\Users\\jcflores\\.nuget\\packages\\",
+        "outputPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jcflores\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Services\\SolidNur.Services.csproj": {
+                "projectPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Services\\SolidNur.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.DTO\\SolidNur.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.DTO\\SolidNur.DTO.csproj",
+        "projectName": "SolidNur.DTO",
+        "projectPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.DTO\\SolidNur.DTO.csproj",
+        "packagesPath": "C:\\Users\\jcflores\\.nuget\\packages\\",
+        "outputPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jcflores\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Modelo\\SolidNur.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Modelo\\SolidNur.Models.csproj",
+        "projectName": "SolidNur.Models",
+        "projectPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Modelo\\SolidNur.Models.csproj",
+        "packagesPath": "C:\\Users\\jcflores\\.nuget\\packages\\",
+        "outputPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Modelo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jcflores\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Repositories\\SolidNur.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Repositories\\SolidNur.Repositories.csproj",
+        "projectName": "SolidNur.Repositories",
+        "projectPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Repositories\\SolidNur.Repositories.csproj",
+        "packagesPath": "C:\\Users\\jcflores\\.nuget\\packages\\",
+        "outputPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jcflores\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Modelo\\SolidNur.Models.csproj": {
+                "projectPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Modelo\\SolidNur.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Services\\SolidNur.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Services\\SolidNur.Services.csproj",
+        "projectName": "SolidNur.Services",
+        "projectPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Services\\SolidNur.Services.csproj",
+        "packagesPath": "C:\\Users\\jcflores\\.nuget\\packages\\",
+        "outputPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jcflores\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.DTO\\SolidNur.DTO.csproj": {
+                "projectPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.DTO\\SolidNur.DTO.csproj"
+              },
+              "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Modelo\\SolidNur.Models.csproj": {
+                "projectPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Modelo\\SolidNur.Models.csproj"
+              },
+              "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Repositories\\SolidNur.Repositories.csproj": {
+                "projectPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Repositories\\SolidNur.Repositories.csproj"
+              },
+              "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Utilities\\SolidNur.Utilities.csproj": {
+                "projectPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Utilities\\SolidNur.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Utilities\\SolidNur.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Utilities\\SolidNur.Utilities.csproj",
+        "projectName": "SolidNur.Utilities",
+        "projectPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Utilities\\SolidNur.Utilities.csproj",
+        "packagesPath": "C:\\Users\\jcflores\\.nuget\\packages\\",
+        "outputPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jcflores\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.DTO\\SolidNur.DTO.csproj": {
+                "projectPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.DTO\\SolidNur.DTO.csproj"
+              },
+              "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Modelo\\SolidNur.Models.csproj": {
+                "projectPath": "C:\\JC\\backup\\NUR\\SolucionPizza\\SolidNur.Modelo\\SolidNur.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

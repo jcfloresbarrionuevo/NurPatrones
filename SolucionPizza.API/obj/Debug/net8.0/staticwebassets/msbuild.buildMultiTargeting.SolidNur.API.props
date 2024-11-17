@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SolidNur.API.props" />
+</Project>
